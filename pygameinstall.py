@@ -3,7 +3,7 @@
 import subprocess
 import sys
 
-path ="" # IMPORTANT: replace "" with the path to your folder and use / instead of \
+path = "" # IMPORTANT - PLEASE READ: replace "" with the path to the folder with "main.py" and use / instead of \
 
 def install(path):
     print("Installing pygame. This may take a while.")
@@ -15,3 +15,4 @@ def install(path):
 
 
 install(path)
+
