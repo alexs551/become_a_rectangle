@@ -1,6 +1,3 @@
-import sys
-print(sys.version)
-
 import pygame
 from pygame.locals import *
 
@@ -104,4 +101,5 @@ while running:
     pygame.display.flip() # puts the changes on screen
 
     dt = clock.tick(60) / 1000 # limits fps to 60
+
     enemy1.x += enemy1speedx * dt
